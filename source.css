@@ -1,0 +1,153 @@
+@import url(http://fonts.googleapis.com/css?family=Abril+Fatface);
+@import url(http://fonts.googleapis.com/css?family=Merriweather);
+
+
+
+/* === GLOBAL OVERRIDES & HIDES === */
+body {
+	padding: 10em 0 !important;  
+}
+.author,
+.clippingActionInner {
+	display: none !important;
+}
+
+
+/* === HOME VIEW === */
+body.home .breaking-news h3 {
+	margin: 0 0 0.5em 0;
+}
+body.home h3 a {
+	font-family: "Abril Fatface";
+	font-size: 1.35em;
+	color: #111 !important;
+	line-height: 1.1em;
+	margin: 0;
+}
+body.home h3 a:hover,
+body.home h3:hover a {
+	text-decoration: none !important;
+	border: 0 none;
+}
+body.home .breaking-news {
+	border-top: 0 none;
+	width: 420px;
+	margin: 0 auto;
+	float: none;
+	display: block;
+}
+body.home .breaking-news article {
+	padding: 20px 0;
+	border-top: 1px dashed #dfe1e3;
+	border-bottom: 0 none;
+}
+body.home .breaking-news article img {
+	float: right;
+}
+body.home .wof {
+	margin: 0;
+}
+body.home .breaking-news article.lead .wof {
+	float: none;
+	width: auto;
+}
+body.home .breaking-news article:first-of-type {
+	padding-top: 0;
+	border-bottom: 0 none;
+	border-top: 0 none;
+}
+body.home .breaking-news p {
+	font-family: "Merriweather";
+	font-size: 15px;
+	line-height: 21px;
+}
+body.home article p {
+	display: block;
+	margin: 0;
+}
+body.home article time {
+	display: none;
+}
+body.home section > :not(.breaking-news) {
+	display: none;
+}
+body.home #content + div,
+body.home .main-cont ~ *,
+body.home .main-straps,
+body.home footer,
+body.home #network-strip,
+body.home .mySite,
+body.home .strap.feed,
+body.home header {
+	display: none !important;
+}
+
+/* === ARTICLE VIEW === */
+body:not(.home) h1, 
+body:not(.home) .article .cN-headingPage {
+	font-family: "Abril Fatface";
+	font-size: 4em;
+	color: #111;
+	line-height: 1.1em;
+	margin: 0 0 0.25em 0;
+}
+body:not(.home) #content, 
+body:not(.home) .wrap, 
+body:not(.home) .outerWrap {
+	width: 420px;
+	margin: 0 auto;
+	float: none;
+}
+body:not(.home) .outerWrap {
+	border: 0;
+}
+body:not(.home) .outerWrap > * > *:not([id="content"]) {
+	display: none;
+}
+body:not(.home) .mySite, 
+body:not(.home) .social, 
+body:not(.home) #network-strip, 
+body:not(.home) .tools {
+	display: none;
+}
+body:not(.home) .cT-imageLandscape {
+	margin: 4em 0;  
+}
+body:not(.home) .cT-imageLandscape p {
+	margin: 0 !important;
+	font-size: 1.15em !important;
+	text-align: center;
+}
+body:not(.home) .cT-imageLandscape img,
+body:not(.home) #video-player-content-player_wrapper {
+	max-width: 440px; 
+	margin-left: -10px;
+}
+body:not(.home) .articleBody,
+body:not(.home) p.lead {  
+	font-family: 'Merriweather', serif !important;
+	color: #222;
+}
+body:not(.home) .articleBody p {
+	font-size: 1.3em;
+	line-height: 1.7;
+	margin: 0.6em 0 1.2em 0;
+}
+body:not(.home) p.lead {
+	font-weight: 800;
+}
+body:not(.home) .dtstamp {
+	font-family: 'Merriweather', serif !important;
+	font-size: 1.1em;
+	color: #666;
+}
+body:not(.home) .articleBody ~ * {
+	display: none;
+}
+body:not(.home) .articleBody > :not(p):not(.cT-imageLandscape) {
+	display: none;
+}
+body:not(.home) .meta dl {
+	float: none;
+	margin: 0 0 2em 0;
+}
