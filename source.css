@@ -5,7 +5,23 @@
 
 /* === GLOBAL OVERRIDES & HIDES === */
 body {
-	padding: 10em 0 !important;  
+	padding: 10em 0 10em 0!important;  
+}
+body.home:before {
+	content: "";
+	display: block;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 50px;
+	margin: auto;
+	background: transparent url('http://resources.theage.com.au/common/media-common-1.0/css/output/7.21.3/img/skin-theage.svg');
+	width: 340px;
+	height: 71px;
+	opacity: 0.20;
+		-webkit-transform: scale(0.8);
+		-moz-transform: scale(0.8);
+		transform: scale(0.8);
 }
 .author,
 .clippingActionInner {
@@ -115,8 +131,9 @@ body:not(.home) .cT-imageLandscape {
 }
 body:not(.home) .cT-imageLandscape p {
 	margin: 0 !important;
-	font-size: 1.15em !important;
+	font-size: 0.9em !important;
 	text-align: center;
+	text-transform: uppercase;
 }
 body:not(.home) .cT-imageLandscape img,
 body:not(.home) #video-player-content-player_wrapper {
