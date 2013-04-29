@@ -28,6 +28,9 @@ body.home:before {
 	display: none !important;
 }
 
+.ad {
+	display: none;
+}
 
 /* === HOME VIEW === */
 body.home .breaking-news h3 {
