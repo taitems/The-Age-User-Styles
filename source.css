@@ -23,13 +23,10 @@ body.home:before {
 		-moz-transform: scale(0.8);
 		transform: scale(0.8);
 }
+.ad,
 .author,
 .clippingActionInner {
 	display: none !important;
-}
-
-.ad {
-	display: none;
 }
 
 /* === HOME VIEW === */
