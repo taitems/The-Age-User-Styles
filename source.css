@@ -29,6 +29,7 @@ body.home:before {
 	display: none !important;
 }
 
+
 /* === HOME VIEW === */
 body.home .breaking-news h3 {
 	margin: 0 0 0.5em 0;
@@ -87,6 +88,9 @@ body.home article time {
 body.home section > :not(.breaking-news) {
 	display: none;
 }
+	body.home #Newswell {
+		display: block;
+	}
 body.home #content + div,
 body.home .main-cont ~ *,
 body.home .main-straps,
@@ -94,9 +98,24 @@ body.home footer,
 body.home #network-strip,
 body.home .mySite,
 body.home .strap.feed,
-body.home header {
+body.home header,
+body.home .related-links,
+body.home .article-meta {
 	display: none !important;
 }
+
+
+/* === HOME - LINK LIST === */
+body.home .link-list,
+body.home .link-list li{
+	border-style: dashed;  
+}
+body.home .link-list li a {
+	font-family: "Abril Fatface";
+	font-size: 1.55em;
+	color: #111;
+}
+
 
 /* === ARTICLE VIEW === */
 body:not(.home) h1, 
