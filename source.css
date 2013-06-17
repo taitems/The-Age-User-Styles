@@ -48,6 +48,9 @@ body.home h3:hover a {
 	text-decoration: none !important;
 	border: 0 none;
 }
+body.home a:visited {
+	color: #999 !important;
+}
 body.home .breaking-news {
 	border-top: 0 none;
 	width: 420px;
