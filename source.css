@@ -94,6 +94,9 @@ body.home section > :not(.breaking-news) {
 	body.home #Newswell {
 		display: block;
 	}
+body.home .outerWrap {
+	border: 0;
+}
 body.home #content + div,
 body.home .main-cont ~ *,
 body.home .main-straps,
