@@ -6,6 +6,7 @@
 /* === GLOBAL OVERRIDES & HIDES === */
 body {
 	padding: 10em 0 10em 0!important;  
+	overflow: visible !important;
 }
 body.home:before {
 	content: "";
