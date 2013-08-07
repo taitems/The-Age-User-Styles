@@ -25,7 +25,8 @@ body.home:before {
 }
 .ad,
 .author,
-.clippingActionInner {
+.clippingActionInner,
+#subscription-overlay {
 	display: none !important;
 }
 
