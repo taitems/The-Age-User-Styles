@@ -78,6 +78,11 @@ body.home .breaking-news article:first-of-type {
 	border-bottom: 0 none;
 	border-top: 0 none;
 }
+.top-page .article.lead img {
+	margin-bottom: 0 !important;
+	margin: 3px 13px 12px 2px !important;
+	float: left !important;
+}
 body.home .breaking-news p {
 	font-family: "Merriweather";
 	font-size: 15px;
