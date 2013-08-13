@@ -124,6 +124,13 @@ body.home .link-list li a {
 	color: #111;
 }
 
+/* === HOME - LIVE / FEATURES === */
+
+.article .live {
+	float: left !important;
+	margin: 3px 7px 0 0 !important;
+}
+
 
 /* === ARTICLE VIEW === */
 body:not(.home) h1, 
