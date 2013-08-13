@@ -207,3 +207,16 @@ body:not(.home) .meta dl {
 	float: none;
 	margin: 0 0 2em 0;
 }
+
+/* Live Update Feed */
+body:not(.home) .post-live .articleBody div { 
+	display: block !important;
+}
+
+.OUTBRAIN, 
+.cT-relatedCoverageContentPage,
+#jobs {
+	display:none;
+}
+
+
