@@ -1,0 +1,20 @@
+/* Optional Comments Module */
+/* See README for @import instructions */
+
+/* Show Comments Link */
+body .tools {
+  display:block !important; 
+  float:none !important
+}
+.tools li {
+  display:none !important; 
+  float:none !important
+} 
+.tools li.comments {
+  display:block !important; margin: 0
+}
+
+/* Show Comments when link is clicked */
+#comments:target {
+  display:block !important
+}
