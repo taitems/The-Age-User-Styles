@@ -27,7 +27,9 @@ body.home:before {
 .ad,
 .author,
 .clippingActionInner,
-#subscription-overlay {
+#subscription-overlay,
+.article-counter,
+#article-counter {
 	display: none !important;
 }
 
