@@ -185,6 +185,7 @@ body:not(.home) .articleBody,
 body:not(.home) p.lead {  
 	font-family: 'Merriweather', serif !important;
 	color: #222;
+	-webkit-filter: none !important;
 }
 body:not(.home) .articleBody p {
 	font-size: 1.3em;
