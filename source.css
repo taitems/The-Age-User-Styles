@@ -229,12 +229,12 @@ body:not(.home) p a img {
 }
 
 /* TEST FOR REMOVING COMMENT AND OPINION FROM BREAKING NEWS BLOCK */
-article[data-asseturl*="comment"], 
+*[data-asseturl*="comment"], 
 article[data-asseturl*="opinion"] {
   opacity: .3;
 }
-article[data-asseturl*="comment"]:before, 
-article[data-asseturl*="opinion"]:before {
+*[data-asseturl*="comment"]:before, 
+*[data-asseturl*="opinion"]:before {
 	content: "Opinion";
 	position: absolute;
 	top: 8px;
