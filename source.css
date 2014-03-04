@@ -230,7 +230,7 @@ body:not(.home) p a img {
 
 /* TEST FOR REMOVING COMMENT AND OPINION FROM BREAKING NEWS BLOCK */
 *[data-asseturl*="comment"], 
-article[data-asseturl*="opinion"] {
+*[data-asseturl*="opinion"] {
   opacity: .3;
 }
 *[data-asseturl*="comment"]:before, 
