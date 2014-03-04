@@ -227,3 +227,9 @@ body:not(.home) .post-live .articleBody div {
 body:not(.home) p a img {
 	display: none !important;
 }
+
+/* TEST FOR REMOVING COMMENT AND OPINION FROM BREAKING NEWS BLOCK */
+article[data-asseturl*="comment"], 
+article[data-asseturl*="opinion"] {
+  background: rgba(255, 255, 0, 0.09);
+}
