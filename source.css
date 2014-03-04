@@ -231,5 +231,17 @@ body:not(.home) p a img {
 /* TEST FOR REMOVING COMMENT AND OPINION FROM BREAKING NEWS BLOCK */
 article[data-asseturl*="comment"], 
 article[data-asseturl*="opinion"] {
-  background: rgba(255, 255, 0, 0.09);
+  opacity: .3;
+}
+article[data-asseturl*="comment"]:before, 
+article[data-asseturl*="opinion"]:before {
+	content: "Opinion";
+	position: absolute;
+	top: 8px;
+	right: 0;
+	padding: 4px 6px;
+	background: #c72525;
+	color: #FFF;
+	text-transform: uppercase;
+	border-radius: 3px;
 }
