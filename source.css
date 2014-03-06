@@ -246,3 +246,9 @@ body:not(.home) p a img {
 	text-transform: uppercase;
 	border-radius: 3px;
 }
+
+/* Betteridge's Law Identifier (http://en.wikipedia.org/wiki/Betteridge's_law_of_headlines) */
+
+a[title$="?"]:after {
+	content: " (No)";
+}
