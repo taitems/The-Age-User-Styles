@@ -29,7 +29,8 @@ body.home:before {
 .clippingActionInner,
 #subscription-overlay,
 .article-counter,
-#article-counter {
+#article-counter,
+#gutterad {
 	display: none !important;
 }
 
