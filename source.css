@@ -30,7 +30,8 @@ body.home:before {
 #subscription-overlay,
 .article-counter,
 #article-counter,
-#gutterad {
+#gutterad,
+#adops-gutter{
 	display: none !important;
 }
 
